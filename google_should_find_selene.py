@@ -1,3 +1,4 @@
+import pytest
 from selene import browser, be, have
 
 def test_succesfull_search_yaru():
