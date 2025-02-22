@@ -5,6 +5,6 @@ from selene import browser
 @pytest.fixture(scope="function", autouse=True)
 def setup_browser():
     browser.config.window_width = 1280
-    browser.config.window_height = 1220
+    browser.config.window_height = 220
     yield
     browser.quit()
